@@ -13,10 +13,10 @@ title                    : "Fernando Aragon"
 title_separator          : "-"
 name                     : &name "Fernando Aragon"
 description              : &description "Fernando Aragon's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://faragons.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://faragons.github.io/fernandoaragon # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "faragons.github.io"
+repository               : "faragons.github.io/fernandoaragon"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -29,7 +29,7 @@ author:
   bio              : "Professor of Economics"
   location         : "Burnaby, CA"
   employer         : "Simon Fraser University"
-  uri              : # URL
+  uri              : "https://www.sfu.ca/economics.html"
   email            : "faragons@sfu.ca" 
 
   # Academic websites
