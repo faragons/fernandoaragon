@@ -1,0 +1,49 @@
+/* ==========================================================================
+    FORMAL THEME - LIGHT VERSION
+    Navy accent, white page, restrained greys.
+    ========================================================================== */
+/* Color codes used for the theme */
+$primary-color              : #1d3557;
+$gray                       : #6b7280;
+$dark-gray                  : #374151;
+$darker-gray                : #1f2328;
+$light-gray                 : #9ca3af;
+$lighter-gray               : #e5e7eb;
+
+/* Color codes used for the site */
+$danger-color               : #b42318;
+$info-color                 : #1d3557;
+$notice-color               : #6b7280;
+$success-color              : #2e7d32;
+$warning-color              : #b45309;
+
+/* Other basic settings for the template */
+$border-radius              : 2px;
+$box-shadow                 : none;
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+:root {
+    --global-base-color                 : #{$primary-color};
+    --global-bg-color                   : #ffffff;
+    --global-footer-bg-color            : #f6f7f9;
+    --global-border-color               : #{$lighter-gray};
+    --global-dark-border-color          : #c9ced6;
+    --global-code-background-color      : #f6f7f9;
+    --global-code-text-color            : #{$darker-gray};
+    --global-fig-caption-color          : #{$gray};
+    --global-link-color                 : #1d3557;
+    --global-link-color-hover           : #8a1c1c;
+    --global-link-color-visited         : #2c4a75;
+    --global-masthead-link-color        : #{$darker-gray};
+    --global-masthead-link-color-hover  : #{$primary-color};
+    --global-text-color                 : #{$darker-gray};
+    --global-text-color-light           : #{$gray};
+    --global-thead-color                : #f6f7f9;
+    --formal-accent                     : #8a1c1c;
+    --formal-panel                      : #f6f7f9;
+}

@@ -8,26 +8,26 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Fernando Aragon"
+site_theme               : "formal"
+title                    : "Fernando M. Aragon"
 title_separator          : "-"
-name                     : &name "Fernando Aragon"
-description              : &description "Fernando Aragon's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://faragons.github.io/fernandoaragon # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+name                     : &name "Fernando M. Aragon"
+description              : &description "Fernando M. Aragon, Professor of Economics at Simon Fraser University. Research in development, environmental, and political economics."
+url                      : https://faragons.github.io
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "faragons.github.io/fernandoaragon"
+baseurl                  : "/fernandoaragon"
+repository               : "faragons/fernandoaragon"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Fernando Aragon"
+  avatar           : # add a photo to /images/ and put its file name here, e.g. "profile.jpg"
+  name             : "Fernando M. Aragon"
   pronouns         : # example: "she/her"  
   bio              : "Professor of Economics"
-  location         : "Burnaby, CA"
+  location         : "Burnaby, BC, Canada"
   employer         : "Simon Fraser University"
   uri              : "https://www.sfu.ca/economics.html"
   email            : "faragons@sfu.ca" 
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "faragons"
+  github           : 
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -125,7 +125,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true
   path                   : # blank (default) uses feed.xml
 
 
@@ -302,7 +302,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Vancouver
 
 
 # Plugins

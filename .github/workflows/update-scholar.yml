@@ -1,0 +1,48 @@
+name: Update Google Scholar citations
+
+on:
+  schedule:
+    - cron: "23 11 * * *"   # every day at 11:23 UTC (about 4am in Vancouver)
+  workflow_dispatch:         # lets you run it by hand from the Actions tab
+  push:
+    branches: [master, main]
+    paths:
+      - ".github/workflows/update-scholar.yml"
+      - "scripts/update_scholar.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-scholar
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch citation counts
+        run: python scripts/update_scholar.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- _data/scholar.json && git ls-files --error-unmatch _data/scholar.json >/dev/null 2>&1; then
+            echo "No change."
+            exit 0
+          fi
+          if [ ! -f _data/scholar.json ]; then
+            echo "No citation data yet."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/scholar.json
+          git commit -m "Update Google Scholar citations"
+          git pull --rebase
+          git push

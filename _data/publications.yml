@@ -1,0 +1,216 @@
+# Publications shown on /publications/.
+# To add a paper, copy a block, put it at the top of its list, and give it the next number.
+# "with" is optional; "links" can hold any number of label/url pairs.
+
+journal:
+  - n: 22
+    title: "Electronic voting and invalid votes: evidence from a natural experiment in Peru"
+    venue: "Public Choice"
+    details: "August 2025"
+    with: "Alberto Chong and Angelo Cozzubo"
+    links:
+      - { label: "paper", url: "https://rdcu.be/eBZhE" }
+
+  - n: 21
+    title: "Assessing misallocation in agriculture: plots vs farms"
+    venue: "Food Policy"
+    details: "vol. 128, October 2024"
+    with: "Juan Pablo Rud and Diego Restuccia"
+    links:
+      - { label: "paper", url: "https://doi.org/10.1016/j.foodpol.2024.102678" }
+      - { label: "replication package", url: "https://doi.org/10.7910/DVN/JMGZ5D" }
+
+  - n: 20
+    title: "COVID-19 and economic preferences: evidence from a panel of cab drivers"
+    venue: "Journal of Behavioral and Experimental Economics"
+    details: "vol. 112, 102257, October 2024"
+    with: "Noelia Bernal, Mariano Bosch and Oswaldo Molina"
+    links:
+      - { label: "paper", url: "https://doi.org/10.1016/j.socec.2024.102257" }
+      - { label: "replication package", url: "https://doi.org/10.7910/DVN/AVP8NK" }
+
+  - n: 19
+    title: "Job displacement costs of phasing out coal"
+    venue: "Journal of Public Economics"
+    details: "vol. 236, August 2024"
+    with: "Michael Simmons, Gerhard Toews, and Juan Pablo Rud"
+    links:
+      - { label: "paper", url: "https://www.sciencedirect.com/science/article/pii/S0047272724001038" }
+
+  - n: 18
+    title: "The long-term impact of a resource-based fiscal windfall: evidence from the Peruvian canon"
+    venue: "Resources Policy"
+    details: "87 part A, 2023"
+    with: "Hernan Winkler"
+    links:
+      - { label: "paper", url: "https://doi.org/10.1016/j.resourpol.2023.104305" }
+      - { label: "replication package", url: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/3PQG7A" }
+
+  - n: 17
+    title: "The persistent effects of COVID-19 on labor outcomes: evidence from Peru"
+    venue: "Applied Economics Letters"
+    details: "30:8, pp. 1065-1076, 2023"
+    with: "Minoru Higa and Carlos Ospino"
+    links:
+      - { label: "paper", url: "https://doi.org/10.1080/13504851.2022.2036319" }
+      - { label: "working paper", url: "https://www.dropbox.com/s/6wi8q3nemb7uh79/manuscript%20RR.pdf?dl=0" }
+      - { label: "online appendix", url: "https://www.dropbox.com/s/c11i541036c4lny/online%20appendix%20RR.pdf?dl=0" }
+
+  - n: 16
+    title: "Are small farms really more productive than large farms?"
+    venue: "Food Policy"
+    details: "106, 2022"
+    with: "Juan Pablo Rud and Diego Restuccia"
+    links:
+      - { label: "paper", url: "https://www.sciencedirect.com/science/article/pii/S0306919221001482" }
+
+  - n: 15
+    title: "Custom Elections and Local Policies: the Case of Canada's First Nations"
+    venue: "AEA Papers & Proceedings"
+    details: "111, pp. 238-42, 2021"
+    with: "Anke Kessler"
+    links:
+      - { label: "paper", url: "https://www.aeaweb.org/articles?id=10.1257/pandp.20211100" }
+      - { label: "working paper", url: "https://www.dropbox.com/s/e3wstjp26gr3j31/manuscript_aragon.pdf?dl=0" }
+      - { label: "online appendix", url: "https://www.dropbox.com/s/13dbvyujcc9mwdg/onlineappendix_aragon.pdf?dl=0" }
+
+  - n: 14
+    title: "Climate Change and Agriculture: Farmer Responses to Extreme Heat"
+    venue: "American Economic Journal: Economic Policy"
+    details: "13(1) pp. 1-35, 2021"
+    with: "Juan Pablo Rud and Francisco Oteiza"
+    links:
+      - { label: "paper", url: "https://www.aeaweb.org/articles?id=10.1257/pol.20190316" }
+      - { label: "working paper", url: "https://www.dropbox.com/s/j9wi551vi5x83tv/AOR_December2019.pdf?dl=0" }
+      - { label: "VoxDev blog", url: "https://voxdev.org/topic/agriculture/how-do-farmers-cope-extreme-heat" }
+
+  - n: 13
+    title: "National or sub-national parties: Does party geographic scope matter?"
+    venue: "Journal of Development Economics"
+    details: "146, 2020"
+    with: "Ricardo Pique and Alexey Makarin"
+    links:
+      - { label: "working paper", url: "https://www.dropbox.com/s/kkqtaj5sf8rs2v6/national-parties-national.pdf?dl=0" }
+
+  - n: 12
+    title: "Credit lines in microcredit: Short-term evidence from a randomized controlled trial in India"
+    venue: "Journal of Development Economics"
+    details: "146, 2020"
+    with: "Alex Karaivanov and Karuna Krishnaswamy"
+    links:
+      - { label: "paper", url: "https://www.sciencedirect.com/science/article/pii/S0304387820300729" }
+      - { label: "working paper", url: "https://www.dropbox.com/s/73e94xc2xtvsbfp/microfinance.pdf?dl=0" }
+      - { label: "replication package", url: "https://doi.org/10.7910/DVN/TPRICR" }
+
+  - n: 11
+    title: "Property rights and risk aversion: Evidence from a titling program"
+    venue: "World Development"
+    details: "134, 2020"
+    with: "Oswaldo Molina and Ingo Leon-Outes"
+    links:
+      - { label: "paper", url: "https://www.sciencedirect.com/science/article/pii/S0305750X20301467" }
+      - { label: "working paper", url: "https://www.dropbox.com/s/eqztgzcsyegw5xd/Property_Rights_and_Risk_Aversion.pdf?dl=0" }
+
+  - n: 10
+    title: "Better the Devil You Know? Re-elected Politicians and Policy Outcomes Under no Term Limits"
+    venue: "Public Choice"
+    details: "182, issue 1-2, pp 1–16, 2020"
+    with: "Ricardo Pique"
+    links:
+      - { label: "paper", url: "https://doi.org/10.1007/s11127-019-00665-9" }
+      - { label: "working paper", url: "https://www.dropbox.com/s/ce1t7av5gjerz4y/master.pdf?dl=0" }
+      - { label: "online appendix", url: "https://static-content.springer.com/esm/art%3A10.1007%2Fs11127-019-00665-9/MediaObjects/11127_2019_665_MOESM1_ESM.pdf" }
+
+  - n: 9
+    title: "Property rights on First Nations’ reserve land"
+    venue: "Canadian Journal of Economics"
+    details: "53 (2), pp. 460-495, 2020"
+    with: "Anke Kessler"
+    links:
+      - { label: "paper", url: "https://www.dropbox.com/s/uruxvw70bvf4ntl/lawful.pdf?dl=0" }
+
+  - n: 8
+    title: "Resource shocks, employment, and gender: evidence from the collapse of the UK coal industry"
+    venue: "Labour Economics"
+    details: "52, pp. 54-67, 2018"
+    with: "Juan Pablo Rud and Gerhard Toews"
+    links:
+      - { label: "paper", url: "https://doi.org/10.1016/j.labeco.2018.03.007" }
+
+  - n: 7
+    title: "Particulate matter and labor supply: the role of caregiving and non-linearities"
+    venue: "Journal of Environmental Economics and Management"
+    details: "86, pp. 295-330, 2017"
+    with: "Juan Jose Miranda and Paulina Oliva"
+    links:
+      - { label: "paper", url: "https://doi.org/10.1016/j.jeem.2017.02.008" }
+
+  - n: 6
+    title: "Polluting Industries and Agricultural Productivity: Evidence from Mining in Ghana"
+    venue: "Economic Journal"
+    details: "126 (597), pp. 1980-2011, 2016"
+    with: "Juan Pablo Rud"
+    links:
+      - { label: "paper", url: "https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12244/abstract" }
+      - { label: "online appendix", url: "http://www.sfu.ca/~faragons/index/Research_files/ghana_online_appendix.pdf" }
+
+  - n: 5
+    title: "Do better property rights improve local income?: Evidence from First Nations‘ treaties"
+    venue: "Journal of Development Economics"
+    details: "116, pp. 43-56, 2015"
+    links:
+      - { label: "paper", url: "http://www.sfu.ca/~faragons/index/Research_files/final_JDE.pdf" }
+      - { label: "online appendix", url: "http://www.sfu.ca/~faragons/index/Research_files/0_onlineappendix.pdf" }
+      - { label: "policy e-brief", url: "https://www.cdhowe.org/sites/default/files/attachments/research_papers/mixed/e-brief_218_0.pdf" }
+
+  - n: 4
+    title: "Why do Parties Use Primaries?: Political Selection vs. Candidate Incentives?"
+    venue: "Public Choice"
+    details: "160(1), 2014"
+    links:
+      - { label: "paper", url: "http://www.sfu.ca/~faragons/index/Research_files/primaries.pdf" }
+      - { label: "online appendix", url: "http://www.sfu.ca/~faragons/index/Research_files/primaries_onlineappendix.pdf" }
+
+  - n: 3
+    title: "Natural Resources and Local Communities: Evidence from a Peruvian Gold Mine"
+    venue: "American Economic Journal: Economic Policy"
+    details: "5(2), May 2013"
+    with: "Juan Pablo Rud"
+    links:
+      - { label: "paper", url: "http://www.sfu.ca/~faragons/index/Research_files/mining.pdf" }
+      - { label: "online appendix", url: "http://www.sfu.ca/~faragons/index/Research_files/mining_onlineappendix.pdf" }
+
+  - n: 2
+    title: "Local Spending, Transfers and Costly Tax Collection"
+    venue: "National Tax Journal"
+    details: "66(2), 343-370, June 2013"
+    links:
+      - { label: "paper", url: "http://www.sfu.ca/~faragons/index/Research_files/costly_taxation.pdf" }
+      - { label: "online appendix", url: "http://www.sfu.ca/~faragons/index/Research_files/costly_taxation_appendix.pdf" }
+
+  - n: 1
+    title: "Candidate Nomination Procedures and Quality of Government"
+    venue: "B.E. Journal of Economic Analysis and Policy (contributions)"
+    details: "13(2), 783-810, 2013"
+    links:
+      - { label: "paper", url: "http://www.sfu.ca/~faragons/index/Research_files/pqg.pdf" }
+
+other:
+  - n: 2
+    title: "The Local Economic Impacts of Resource Abundance: What Have We Learned?"
+    venue: "Chapter 2 in “Socioeconomic Impact of Mining on Local Communities in Africa”"
+    details: "World Bank Group, Report No. ACS14621, June 2015"
+    with: "Punam Chuhan-Pole and Bryan C. Land"
+    links:
+      - { label: "paper", url: "http://documents.worldbank.org/curated/en/2015/06/24738816/socioeconomic-impact-mining-local-communities-africa" }
+      - { label: "blog post", url: "http://blogs.worldbank.org/developmenttalk/natural-resource-booms-are-mixed-blessing-local-communities-too" }
+      - { label: "link to book", url: "https://openknowledge.worldbank.org/bitstream/handle/10986/26110/9781464808197.pdf" }
+
+  - n: 1
+    title: "Local Governments’ Technical Capacity and Performance: Evidence from Peruvian Municipalities"
+    venue: "Perspectivas"
+    details: "7(1) pp. 89-113, Bogota: Andean Development Corporation (CAF), 2009"
+    with: "Carlos Casas"
+    links:
+      - { label: "paper", url: "http://www.caf.com/media/3113/PerspectivasVol7N%C2%BA1.pdf" }
+      # TODO: add the "working paper" Dropbox link (technical-capacities.pdf) — needs its full share URL.

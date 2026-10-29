@@ -1,0 +1,117 @@
+/* ==========================================================================
+   FORMAL STYLE OVERRIDES
+   Serif headings, quieter navigation, publication list and citation panel.
+   ========================================================================== */
+
+$formal-serif : "Source Serif 4", Georgia, "Times New Roman", serif;
+$formal-sans  : "Source Sans 3", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
+html { font-size: 17px; }
+@media (min-width: 1280px) { html { font-size: 18px; } }
+
+body {
+  font-family: $formal-sans;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title, .author__name, .masthead__menu-item--lg a {
+  font-family: $formal-serif;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+.page__content h2 {
+  font-size: 1.35em;
+  margin-top: 2em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--global-border-color);
+}
+.page__content h3 { font-size: 1.1em; margin-top: 1.6em; }
+
+.page__title { font-size: 2em; margin-bottom: 0.6em; }
+
+a { text-decoration: none; }
+.page__content a { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.page__content a:hover { color: var(--global-link-color-hover); }
+
+/* Masthead: thin rule, small caps feel */
+.masthead {
+  border-bottom: 1px solid var(--global-border-color);
+  border-top: 3px solid var(--formal-accent);
+}
+.masthead__menu-item a { font-size: 0.82rem; letter-spacing: 0.04em; text-transform: uppercase; }
+.masthead__menu-item--lg a { font-size: 1.15rem; letter-spacing: 0; text-transform: none; }
+.greedy-nav .visible-links a:before { background: var(--formal-accent); }
+.masthead__menu-item.selected a { color: var(--global-base-color); }
+
+/* Sidebar */
+.author__name { font-size: 1.15em; }
+.author__bio { font-style: italic; }
+
+/* Footer */
+.page__footer { border-top: 1px solid var(--global-border-color); }
+.page__footer footer { font-size: 0.8rem; }
+
+/* ---------- Home ---------- */
+.intro-lead { font-size: 1.08em; }
+
+.link-row { display: flex; flex-wrap: wrap; gap: 0.6em; margin: 1.4em 0 1.8em; }
+.page__content .btn-formal {
+  display: inline-block;
+  padding: 0.45em 1.1em;
+  border: 1px solid var(--global-base-color);
+  color: var(--global-base-color);
+  font-size: 0.85em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.page__content .btn-formal:hover { background: var(--global-base-color); color: var(--global-bg-color); }
+
+.cites {
+  border: 1px solid var(--global-border-color);
+  border-left: 3px solid var(--global-base-color);
+  background: var(--formal-panel);
+  padding: 1em 1.2em 0.8em;
+  margin: 0 0 2em;
+}
+.cites__title { font-family: $formal-serif; font-weight: 600; margin: 0 0 0.6em; font-size: 1em; }
+.cites__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5em 1em; }
+.cites__num { font-family: $formal-serif; font-size: 1.7em; font-weight: 600; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.cites__label { font-size: 0.72em; text-transform: uppercase; letter-spacing: 0.06em; color: var(--global-text-color-light); }
+.cites__since { font-size: 0.75em; color: var(--global-text-color-light); }
+.cites__note { font-size: 0.75em; color: var(--global-text-color-light); margin: 0.8em 0 0; }
+
+.contact { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5em; margin-top: 1em; font-size: 0.95em; }
+.contact p { margin: 0; }
+.contact__label { font-size: 0.72em; text-transform: uppercase; letter-spacing: 0.06em; color: var(--global-text-color-light); margin-bottom: 0.3em !important; }
+@media (max-width: 600px) { .contact { grid-template-columns: 1fr; } }
+
+/* ---------- Publications ---------- */
+.pubs { list-style: none; margin: 0; padding: 0; }
+.pubs li { display: grid; grid-template-columns: 2.4em 1fr; margin: 0 0 1.15em; }
+.pubs__n { color: var(--global-text-color-light); font-variant-numeric: tabular-nums; }
+.pubs__title { font-family: $formal-serif; font-weight: 600; }
+.pubs__venue { font-style: italic; }
+.pubs__meta { display: block; font-size: 0.93em; }
+.pubs__links { display: block; margin-top: 0.15em; font-size: 0.8em; }
+.page__content .pubs__links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-right: 1em;
+  white-space: nowrap;
+}
+.page__content .pubs__links a:hover { text-decoration: underline; }
+
+/* ---------- Projects, lab, support ---------- */
+.entry { margin: 0 0 1.8em; }
+.entry h3 { margin: 0 0 0.25em; }
+.entry__with { font-size: 0.93em; color: var(--global-text-color-light); margin: 0 0 0.4em; }
+.entry p { margin: 0 0 0.4em; }
+
+.resources { list-style: none; padding: 0; margin: 0 0 1em; }
+.resources li { margin: 0 0 0.5em; padding-left: 1em; border-left: 2px solid var(--global-border-color); }

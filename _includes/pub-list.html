@@ -1,0 +1,12 @@
+<ol class="pubs">
+{%- for p in include.items -%}
+  <li>
+    <span class="pubs__n">{{ p.n }}.</span>
+    <div>
+      <span class="pubs__title">{{ p.title }}</span>
+      <span class="pubs__meta"><span class="pubs__venue">{{ p.venue }}</span>{% if p.details %}, {{ p.details }}{% endif %}{% if p.with %} (with {{ p.with }}){% endif %}</span>
+      {% if p.links %}<span class="pubs__links">{% for l in p.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</span>{% endif %}
+    </div>
+  </li>
+{%- endfor -%}
+</ol>
