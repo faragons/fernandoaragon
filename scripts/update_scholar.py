@@ -10,7 +10,8 @@ import re
 import sys
 import time
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 USER_ID = "PqTDOgUAAAAJ"
@@ -68,7 +69,7 @@ def main() -> int:
 
     data["citations_fmt"] = f"{data['citations']:,}"
     data["citations_since_fmt"] = f"{data['citations_since']:,}"
-    data["updated"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    data["updated"] = datetime.now(ZoneInfo("America/Vancouver")).strftime("%Y-%m-%d")
     data["profile"] = URL
 
     OUT.write_text(json.dumps(data, indent=2) + "\n")
