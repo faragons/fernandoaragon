@@ -115,3 +115,6 @@ a { text-decoration: none; }
 
 .resources { list-style: none; padding: 0; margin: 0 0 1em; }
 .resources li { margin: 0 0 0.5em; padding-left: 1em; border-left: 2px solid var(--global-border-color); }
+
+/* Let long sidebar entries (e.g. employer) wrap instead of being cut off */
+.author__urls li { white-space: normal; overflow: visible; text-overflow: clip; }
